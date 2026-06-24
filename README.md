@@ -1,6 +1,6 @@
 # 🤖 QQ Chat Bot
 
-基于 [OneBot v11](https://onebot.dev/) 协议的 QQ 机器人，接入任意 OpenAI 兼容接口。
+基于 [OneBot v11](https://onebot.dev/) 协议的 QQ 机器人，需要配合 [NapCatQQ](https://github.com/NapNeko/NapCatQQ) 使用。NapCatQQ 负责连接 QQ，本程序负责 AI 对话。
 
 ## ✨ 功能特点
 
@@ -20,7 +20,7 @@
 ### 0. 前置要求
 
 - Python 3.9+
-- [NapCatQQ](https://github.com/NapNeko/NapCatQQ)
+- [NapCatQQ](https://github.com/NapNeko/NapCatQQ)（必须，本程序不包含 QQ 登录功能）
 
 ### 1. 安装依赖
 
@@ -52,6 +52,8 @@ pip install -r requirements.txt
 填完自动保存 → 直接启动。配置保存在 config.json 和 .env，之后每次双击直接跑。
 
 > 💡 想重新配置？双击 `初始化.bat` 即可重新进入向导。手动方式：`python setup.py`
+
+> ⚠️ 本程序是 NapCatQQ 的**搭档**，不是独立 QQ 客户端。运行前先确保 NapCatQQ 已启动并连上了 QQ。
 
 ## 📖 配置说明
 
