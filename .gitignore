@@ -1,0 +1,47 @@
+# ===== 敏感配置（含 API 密钥，请复制 config.example.json 为 config.json 后填入） =====
+config.json
+.env
+
+# ===== 环境变量文件 =====
+.env.local
+.env.*.local
+
+# ===== 运行时状态 =====
+bot_state.json
+user_profiles.json
+
+# ===== 日志 =====
+bot.log
+*.log
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+.env/
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Claude / Codex 本地配置 =====
+.claude/
+
+# ===== OS 杂项 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.bak

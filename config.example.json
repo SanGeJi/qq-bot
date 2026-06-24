@@ -1,0 +1,6 @@
+{
+  "name": "deepseek",
+  "api_base": "https://api.deepseek.com",
+  "api_key": "sk-your-api-key-here",
+  "model": ""
+}
